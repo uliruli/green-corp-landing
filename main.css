@@ -31,6 +31,7 @@ a {
     cursor: pointer;
     box-shadow: 0 16px 36px rgb(52 213 68 / 22%);
     padding: 15px;
+
   }
 .about__image {
     width: 500px;
@@ -131,4 +132,35 @@ margin-top: 40px;
 }
 input {
   outline: none;
+}
+button:hover {
+  background-color: #f6980c;
+  box-shadow:  0 16px 36px rgba(246 152 12 / 20%);
+  transition: background-color 0.3s ease-in;
+}
+footer{
+  padding: 90px 20px;
+  font-size: 16px;
+  font-weight:600;
+
+}
+.footer__container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__copyright{
+  margin-top: 40px;
+  text-align: center;
+  opacity: 0.5;
+}
+.footer__group {
+ margin-right: 80px;
+ font-size: 16px;
+ opacity: 0.7; 
+ margin-bottom:30px;
+}
+.footer__links{
+  display: flex;
+  flex-direction: column;
 }
