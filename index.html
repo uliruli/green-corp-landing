@@ -4,25 +4,28 @@
   <title>Солнечные батареи GreenCorp</title>
   <link rel="stylesheet" href="main.css">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
   <header>
     <img class="header_logo" src="img/logo.svg">
     <div class="header_controls">
-        <a href="#contacts">Контакты</a>
+       <a href="#contacts">Контакты</a>
         <button>Заказать</button>
     </div>
   </header>
   <section class="about">
-    <div class="about__info">
+    <div class="about__info animate__animated animate__fadeInLeft animate__slow">
       <h1>Солнечные панели GreenRobotic</h1>
       <p>Производите дешёвую экологически чистую электроэнергию из солнечного света</p>
-      <button>Узнать подробнее</button>
-    </div>
-    <div class="about__images">
+      <button>Узнать подробнее <i class="fas fa-angle-right"></i></button>
+  </div>
+  <div class="about__images animate__animated animate__fadeInRight animate__slow">
       <img class="about__sun-image" src="img/sun.png">
       <img class="about__image" src="img/solar-panel.png">
-    </div>
+  </div>
   </section>
     <section class="form">
       <div class="form__container">
@@ -43,12 +46,12 @@
         </div>
         <div class='form__group'>
           <label for="money">Примерный бюджет</label>
-          <select size="1" name="money" id="budget" >   
+          <select size="1" name="money" id="budget" >
             <option label="Выберите вариант">Выберите вариант</option>
-            <option  value="10-30">10000p-30000p</option>
-            <option value="30-60">30000p-60000p</option>
-            <option value="60-100">60000p-100000p</option>
-            <option value="100+">100000p</option>
+            <option  value="10-30">10 000p-30 000p</option>
+            <option value="30-60">30 000p-60 000p</option>
+            <option value="60-100">60 000p-100 000p</option>
+            <option value="100+">100 000p</option>
           </select>
         </div>
       </form>
